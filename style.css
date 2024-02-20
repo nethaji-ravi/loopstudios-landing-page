@@ -16,15 +16,10 @@ body{
     min-width: 100vw;
     min-height: 100vh;
     overflow-x: hidden;
-    /* background: #000; */
-    /* color: #fff; */
 }
 a{
     text-decoration: none;
     color: #fff;
-}
-.container{
-    /* position: relative; */
 }
 .container header{
     min-height: 100vh;
@@ -33,7 +28,6 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
-    /* margin: 1em; */
     padding: 5em 7em;
     color: hsl(0, 0%, 100%);
     position: relative;
@@ -57,12 +51,9 @@ header .navbar {
 ul li{
     display: inline-block;
     padding: 1em;
-    /* position: relative; */
 }
 .nav ul li a{
     position: relative;
-    /* color: #fff; */
-    /* text-decoration: none; */
 }
 .nav ul li a::before{
     content: "";
@@ -75,18 +66,15 @@ ul li{
     transition: 0.3s linear;
 }
 .nav ul li a:hover::before {
-    width: 100%; /* Width changes on hover */
+    width: 100%; 
 }
 .hamburger{
-    /* height:10px;
-    width: 10px; */
     display: none;
 }
 .logoandclose{
     display:flex;
     justify-content: space-between;
     display: none;
-
 }
 .headcontent{
     border: 3px solid #FFF;
@@ -97,24 +85,16 @@ ul li{
     padding: 2em;
     /* font-weight: 1px; */
     display: flex;
-    /* justify-self: center;
-    align-self: center; */
-
 }
 .headcontent p{
     font-size:5em;
-    /* justify-self: center;
-    align-self: center; */
 }
 .content-container{
-    /* background: #dfafaf; */
     padding:0 ;
     height: 100vh;
 }
 .row2{
     height: 100%;
-    /* max-width: 340px; */
-    /* max-height:350px; */
     display: flex;
     position: relative;
     padding: 5em;
@@ -158,7 +138,6 @@ ul li{
 .photo{
     width: 256px;
     height:450px;
-    /* background-image: url(images/desktop/image-deep-earth.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     object-fit: contain;
@@ -171,8 +150,6 @@ ul li{
     transition: transform 0.3s ease-in-out;
 }
 .photo-title{
-    /* display: flex;
-    align-self: end; */
     color: #fff;
     padding: 1em;
     position: absolute;
@@ -180,10 +157,6 @@ ul li{
 .creation-photos{
     margin-top: 4em;
     display: grid;
-    /* justify-self: space-between;
-    align-self: space-between; */
-    /* grid-auto-flow: column; */
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     grid-template-columns: repeat(auto-fit,minmax(256px,1fr));
     row-gap: 2em;
     grid-column-gap: 2em;
@@ -201,7 +174,6 @@ footer{
 #copyright{
     color: hsl(0, 0%, 55%);
     padding: 1em 0;
-    /* background: #d79191; */
 }
 footer ul li{
     padding: 1em 0;
@@ -222,12 +194,6 @@ i{
         display: block;
     }
     .container header{
-        /* background-image: url(images/mobile/image-hero.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        object-fit: contain;
-        width: 100vw; */
         padding:2em;
     }
     .headcontent{
@@ -255,7 +221,6 @@ i{
         display:none
     }
     .logoandclose{
-        /* display: block; */
         display:flex;
         justify-content: space-between;
     }
@@ -270,9 +235,6 @@ i{
         max-width:550px;
         padding:2em;
     }
-  
- 
-
 }
 
 @media(max-width:650px){
@@ -298,7 +260,6 @@ i{
 
     }
     .row2{
-        /* position:static; */
         flex-direction: column;
         padding:1em;
     }
@@ -356,7 +317,6 @@ i{
         width: 100%;
         height:auto;
         overflow: hidden;
-        /* background-image: url(images/desktop/image-deep-earth.jpg); */ 
         background-position: center;
         background-repeat: no-repeat;
         object-fit: contain;
